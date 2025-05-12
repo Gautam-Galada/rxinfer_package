@@ -1,0 +1,7 @@
+Julia (Analysis Layer)              Python (Modeling Layer)
+┌───────────────────────┐           ┌───────────────────────┐
+│ 1. Load Data          │           │ 5. Load Preprocessed  │
+│ 2. Preprocess         │           │    Data & Insights    │
+│ 3. Bayesian Analysis  │◄─JSON/CSV─┤ 6. Train ML Model     │
+│    (RxInfer)          │─Features─►│ 7. Deploy/Validate    │
+└───────────────────────┘           └───────────────────────┘
